@@ -14,13 +14,19 @@
 
 
 .header {
-    background: url(../images/header-background.jpg) center center no-repeat;
+    background: url('../images/header-background.jpg') center center no-repeat;
     background-size: cover;
 }
 
 // modal variables
 .modal-dialog {
     max-width: 1040px;
+}
+
+// download area
+.download {
+    background: url('../images/download-background.jpg') center center no-repeat;
+    background-size: cover;
 }
 
 

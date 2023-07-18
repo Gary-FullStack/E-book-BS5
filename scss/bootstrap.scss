@@ -21,7 +21,7 @@ $navbar-toggler-border-radius: 5px;
 // button changes
 $button-radius: 50px;
 $button-padding-x: 30px;
-$button-padding-y: 30px;
+$button-padding-y: 10px;
 
 $btn-border-radius: $button-radius;
 $btn-border-radius-sm: $button-radius;
@@ -32,21 +32,22 @@ $btn-padding-x-lg: $button-padding-x;
 $btn-padding-y: $button-padding-y;
 $btn-padding-y-sm: $button-padding-y;
 $btn-padding-y-lg: $button-padding-y;
+$navbar-toggler-border-radius: 5px;
 
 
 
 // spacing variables
 $spacer: 1rem !default;
 $spacers: (
-0: 0,
-1: $spacer * 0.25,
-2: $spacer * 0.5,
-3: $spacer,
-4: $spacer * 1.5,
-5: $spacer * 3,
-6: $spacer * 6,
-7: $spacer * 8,
-8: $spacer * 12,
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
 ) !default;
 
 
@@ -54,6 +55,10 @@ $spacers: (
 // text and margins variables
 $line-height-base: 1.7;
 $headings-margin-bottom: $spacer * 1;
+
+
+// negative margin variables
+$enable-negative-margins: true;
 
 
 
